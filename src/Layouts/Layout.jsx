@@ -31,56 +31,39 @@ export default function Layout() {
   return (
     <>
       <header
-        id="header"
-        className={`header fixed-top ${isScrolled ? "scrolled" : ""}`}
-      >
-        
+  id="header"
+  className={`header fixed-top ${isScrolled ? "scrolled" : ""} ${isMobileNavOpen ? "mobile-nav-active" : ""}`}
+>
+  <div className="branding d-flex align-items-center">
+    <div className="container position-relative d-flex align-items-center justify-content-between">
 
-        {/* Branding */}
-        <div className="branding d-flex align-items-center">
-          <div className="container position-relative d-flex align-items-center justify-content-between">
-            <a href="#" className="logo d-flex align-items-center">
-              <h1 className="sitename">Restoran MBG</h1>
-            </a>
+      <a href="#" className="logo d-flex align-items-center">
+        <h1 className="sitename">Restoran MBG</h1>
+      </a>
 
-            {/* Navigation */}
-            <nav
-              id="navmenu"
-              className={`navmenu ${isMobileNavOpen ? "active" : ""}`}
-            >
-              <ul>
-                <li>
-                  <a href="#hero" className="active">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#menu">Menu</a>
-                </li>
-                <li>
-                  <a href="#book-a-table">Book a Table</a>
-                </li>
-                <li>
-                  <a href="#chefs">Chefs</a>
-                </li>
-                <li>
-                  <a href="#events">Events</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
-              <i
-                className="mobile-nav-toggle d-xl-none bi bi-list"
-                onClick={toggleMobileNav}
-              ></i>
-            </nav>
-          </div>
-        </div>
-      </header>
+      {/* Mobile Toggle MUST be outside navmenu */}
+      <i
+        className={`mobile-nav-toggle d-xl-none bi ${isMobileNavOpen ? "bi-x" : "bi-list"}`}
+        onClick={toggleMobileNav}
+      ></i>
+
+      {/* Navigation */}
+      <nav id="navmenu" className="navmenu">
+        <ul>
+          <li><a href="#hero" className="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#book-a-table">Book a Table</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+</header>
+
 
       {/* Main Content */}
       <main className="main">
