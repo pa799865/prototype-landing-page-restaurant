@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Hero from "../Component/hero.jsx";
+import Hero from "../Component/Hero.jsx";
 import About from "../Component/About.jsx";
 import Menu from "../Component/Menu.jsx";
 import Testimonials from "../Component/Testimonials.jsx";
