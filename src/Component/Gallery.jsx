@@ -55,7 +55,7 @@ export default function Gallery() {
       <div className="container section-title" data-aos="fade-up">
         <span className="description-title">Gallery</span>
         <h2>Gallery</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Abadikan momen indah dan suasana hangat yang menjadi bagian dari pengalaman bersantap di tempat kami.</p>
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -71,10 +71,10 @@ export default function Gallery() {
             data-aos-delay="100"
           >
             <li data-filter="*" className="filter-active">
-              All
+              Semua
             </li>
-            <li data-filter=".filter-food">Food</li>
-            <li data-filter=".filter-drinks">Drinks</li>
+            <li data-filter=".filter-food">Makanan</li>
+            <li data-filter=".filter-drinks">Minuman</li>
             <li data-filter=".filter-interior">Interior</li>
             <li data-filter=".filter-staff">Staff</li>
           </ul>

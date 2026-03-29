@@ -10,7 +10,7 @@ export default function Testimonials() {
         <span className="description-title">Testimonials</span>
         <h2>Testimonials</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+          Kepuasan pelanggan adalah prioritas kami — berikut pengalaman mereka bersama kami.
         </p>
       </div>
 
@@ -41,8 +41,7 @@ export default function Testimonials() {
                 <i className="bi bi-star-fill"></i>
               </div>
               <p>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                rhoncus...
+                Tempatnya keren & klasik, banyak spot foto menarik. Pelayanan ramah, makanannya juga lumayan. Cocok untuk nongkrong anak-anak muda.
               </p>
               <div className="profile">
                 <img
@@ -53,9 +52,10 @@ export default function Testimonials() {
                 />
                 <div className="info">
                   <h4>
-                    Marcus Chen <i className="bi bi-patch-check-fill"></i>
+                    Iwan To 
+                    {/* <i className="bi bi-patch-check-fill"></i> */}
                   </h4>
-                  <span>@marcuschen</span>
+                  {/* <span>@marcuschen</span> */}
                 </div>
               </div>
             </div>
@@ -72,8 +72,7 @@ export default function Testimonials() {
                 <i className="bi bi-star-fill"></i>
               </div>
               <p>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam
-                duis minim tempor...
+                Good vibes, good atmosphere, homie, vintage but awesome.
               </p>
               <div className="profile">
                 <img
@@ -84,9 +83,9 @@ export default function Testimonials() {
                 />
                 <div className="info">
                   <h4>
-                    Sarah Mitchell <i className="bi bi-patch-check-fill"></i>
+                    Affandy HR 
                   </h4>
-                  <span>@sarahmitch</span>
+                  
                 </div>
               </div>
             </div>
@@ -103,8 +102,7 @@ export default function Testimonials() {
                 <i className="bi bi-star-fill"></i>
               </div>
               <p>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat
-                minim velit...
+                aesthetic, retro side,
               </p>
               <div className="profile">
                 <img
@@ -115,9 +113,8 @@ export default function Testimonials() {
                 />
                 <div className="info">
                   <h4>
-                    James Wilson <i className="bi bi-patch-check-fill"></i>
+                    Sya Vii 
                   </h4>
-                  <span>@jwilson</span>
                 </div>
               </div>
             </div>
@@ -134,7 +131,7 @@ export default function Testimonials() {
                 <i className="bi bi-star-fill"></i>
               </div>
               <p>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam...
+               JUJUR. CHUROS
               </p>
               <div className="profile">
                 <img
@@ -145,70 +142,8 @@ export default function Testimonials() {
                 />
                 <div className="info">
                   <h4>
-                    Emma Rodriguez <i className="bi bi-patch-check-fill"></i>
+                   Bintang Tribean
                   </h4>
-                  <span>@emmarod</span>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          {/* Testimonial 5 */}
-          <SwiperSlide>
-            <div className="testimonial-item">
-              <div className="stars">
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-              </div>
-              <p>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum...
-              </p>
-              <div className="profile">
-                <img
-                  src="assets/img/person/person-m-13.webp"
-                  className="testimonial-img"
-                  alt=""
-                  loading="lazy"
-                />
-                <div className="info">
-                  <h4>
-                    David Kumar <i className="bi bi-patch-check-fill"></i>
-                  </h4>
-                  <span>@davidkumar</span>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          {/* Testimonial 6 */}
-          <SwiperSlide>
-            <div className="testimonial-item">
-              <div className="stars">
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-              </div>
-              <p>
-                Texit tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum
-                eram malis quorum velit...
-              </p>
-              <div className="profile">
-                <img
-                  src="assets/img/person/person-f-13.webp"
-                  className="testimonial-img"
-                  alt=""
-                  loading="lazy"
-                />
-                <div className="info">
-                  <h4>
-                    Sophia Lee <i className="bi bi-patch-check-fill"></i>
-                  </h4>
-                  <span>@sophialee</span>
                 </div>
               </div>
             </div>

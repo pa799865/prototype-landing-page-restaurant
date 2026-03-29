@@ -8,8 +8,7 @@ const Events = () => {
         <span className="description-title">Events</span>
         <h2>Events</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Rayakan momen spesial Anda bersama kami dengan suasana eksklusif dan sajian istimewa.
         </p>
       </div>
 
@@ -22,7 +21,7 @@ const Events = () => {
             data-aos-delay="150"
           >
             <div className="seasonal-hero">
-              <span className="seasonal-badge">Limited Time</span>
+              <span className="seasonal-badge">Waktu Terbatas</span>
               <h2>Autumn Harvest Festival</h2>
               <p>
                 Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -69,8 +68,8 @@ const Events = () => {
                     <span>Locally Sourced Produce</span>
                   </div>
                 </div>
-                <a href="#" className="feature-link">
-                  Explore Menu <i className="bi bi-arrow-right"></i>
+                <a href="https://www.instagram.com/waroeng.searah/" className="feature-link">
+                  Info Lebih Lanjut <i className="bi bi-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -106,8 +105,8 @@ const Events = () => {
                     <span>Premium Selection</span>
                   </div>
                 </div>
-                <a href="#" className="feature-link">
-                  Book Tasting <i className="bi bi-arrow-right"></i>
+                <a href="https://www.instagram.com/waroeng.searah/" className="feature-link">
+                  Info Lebih Lanjut <i className="bi bi-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -119,10 +118,9 @@ const Events = () => {
           <div className="row align-items-center">
             <div className="col-lg-4" data-aos="zoom-in" data-aos-delay="250">
               <div className="awards-content">
-                <h3>Recognition &amp; Awards</h3>
+                <h3>Rekor &amp; Penghargaan</h3>
                 <p>
-                  At enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                 Pengakuan dan penghargaan yang mencerminkan dedikasi kami dalam menghadirkan kualitas terbaik di setiap sajian.
                 </p>
               </div>
             </div>

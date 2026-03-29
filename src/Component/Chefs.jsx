@@ -7,7 +7,7 @@ const Chefs = () => {
       <div className="container section-title" data-aos="fade-up">
         <span className="description-title">Chefs</span>
         <h2>Chefs</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Di balik setiap hidangan lezat, ada tangan-tangan ahli yang menciptakan pengalaman rasa yang tak terlupakan.</p>
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">

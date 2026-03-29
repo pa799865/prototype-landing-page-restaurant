@@ -38,7 +38,7 @@ export default function Layout() {
     <div className="container position-relative d-flex align-items-center justify-content-between">
 
       <a href="#" className="logo d-flex align-items-center">
-        <h1 className="sitename">Restoran MBG</h1>
+        <h1 className="sitename">Waroeng Searah</h1>
       </a>
 
       {/* Mobile Toggle MUST be outside navmenu */}
@@ -56,7 +56,7 @@ export default function Layout() {
           <li><a href="#book-a-table">Book a Table</a></li>
           <li><a href="#chefs">Chefs</a></li>
           <li><a href="#events">Events</a></li>
-          <li><a href="#contact">Contact</a></li>
+          {/* <li><a href="#contact">Contact</a></li> */}
         </ul>
       </nav>
 
@@ -76,7 +76,7 @@ export default function Layout() {
         <Location />
         <Events />
         <Gallery />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </main>
     </>

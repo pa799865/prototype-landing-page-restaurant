@@ -1034,6 +1034,7 @@ section,
 }
 
 .hero .hero-text .tagline {
+  text-align: center;
   display: inline-block;
   font-size: 14px;
   font-weight: 600;

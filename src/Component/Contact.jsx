@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="container section-title" data-aos="fade-up">
         <span className="description-title">Contact</span>
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Kami siap membantu Anda — hubungi kami untuk reservasi dan informasi lebih lanjut.</p>
       </div>
 
       {/* Contact Info Boxes */}

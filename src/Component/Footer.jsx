@@ -10,14 +10,13 @@ export default function Footer() {
           <div className="col-lg-4">
             <div className="footer-content">
               <a href="index.html" className="logo d-flex align-items-center mb-4">
-                <span className="sitename">Restoran MBG</span>
+                <span className="sitename">Waroeng Searah</span>
               </a>
               <p className="mb-4">
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
-                Donec velit neque auctor sit amet aliquam vel ullamcorper sit amet ligula.
+                Menghadirkan pengalaman kuliner dengan cita rasa autentik, suasana nyaman, dan pelayanan terbaik untuk setiap momen Anda.
               </p>
 
-              <div className="newsletter-form">
+              {/* <div className="newsletter-form">
                 <h5>Stay Updated</h5>
                 <form action="forms/newsletter.php" method="post" className="php-email-form">
                   <div className="input-group">
@@ -36,12 +35,12 @@ export default function Footer() {
                   <div className="error-message"></div>
                   <div className="sent-message">Thank you for subscribing!</div>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
 
           <div className="col-lg-2 col-6">
-            <div className="footer-links">
+            {/* <div className="footer-links">
               <h4>Company</h4>
               <ul>
                 <li><a href="#"><i className="bi bi-chevron-right"></i> About</a></li>
@@ -50,11 +49,11 @@ export default function Footer() {
                 <li><a href="#"><i className="bi bi-chevron-right"></i> Blog</a></li>
                 <li><a href="#"><i className="bi bi-chevron-right"></i> Contact</a></li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
-          <div className="col-lg-2 col-6">
-            <div className="footer-links">
+          <div className="col-lg-3 col-6">
+            {/* <div className="footer-links">
               <h4>Solutions</h4>
               <ul>
                 <li><a href="#"><i className="bi bi-chevron-right"></i> Digital Strategy</a></li>
@@ -63,10 +62,10 @@ export default function Footer() {
                 <li><a href="#"><i className="bi bi-chevron-right"></i> AI Solutions</a></li>
                 <li><a href="#"><i className="bi bi-chevron-right"></i> Cybersecurity</a></li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
-          <div className="col-lg-4">
+          <div className="col-lg-3">
             <div className="footer-contact">
               <h4>Get in Touch</h4>
 
@@ -93,19 +92,11 @@ export default function Footer() {
 
               <div className="contact-item">
                 <div className="contact-icon">
-                  <i className="bi bi-envelope"></i>
+                  <i className="bi bi-instagram"></i>
                 </div>
                 <div className="contact-info">
-                  <p>contact@example.com</p>
+                  <p>@waroengsearah</p>
                 </div>
-              </div>
-
-              <div className="social-links">
-                <a href="#"><i className="bi bi-facebook"></i></a>
-                <a href="#"><i className="bi bi-twitter-x"></i></a>
-                <a href="#"><i className="bi bi-linkedin"></i></a>
-                <a href="#"><i className="bi bi-youtube"></i></a>
-                <a href="#"><i className="bi bi-github"></i></a>
               </div>
             </div>
           </div>
@@ -119,16 +110,11 @@ export default function Footer() {
             <div className="col-lg-6">
               <div className="copyright">
                 <p>
-                  © <span>Copyright</span> <strong className="px-1 sitename">Restoran MBG</strong> <span>All Rights Reserved</span>
+                  © <span>Copyright</span> <strong className="px-1 sitename">Waroeng Searah</strong> <span>All Rights Reserved</span>
                 </p>
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="footer-bottom-links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Cookie Policy</a>
-              </div>
               <div className="credits">
                 Designed by <a href="#">Putra Arya Setiawan</a>
               </div>

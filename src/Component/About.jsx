@@ -10,11 +10,10 @@ export default function About() {
   return (
     <section id="about" className="about section">
       <div className="container section-title" data-aos="fade-up">
-        <span className="description-title">&nbsp;About</span>
-        <h2>About</h2>
+        <span className="description-title">&nbsp;Tentang Kami</span>
+        <h2>Tentang Kami</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Perpaduan rasa, suasana, dan pelayanan untuk menciptakan pengalaman bersantap yang berkesan.
         </p>
       </div>
 
@@ -23,15 +22,12 @@ export default function About() {
           {/* Left Side */}
           <div className="col-lg-6" data-aos="fade-up">
             <div className="about-content">
-              <h2>Experience Our Unique Approach</h2>
+              <h2>Rasakan Pendekatan Unik Kami</h2>
               <p className="fst-italic">
-                Integer posuere erat a ante venenatis dapibus posuere velit
-                aliquet. Vestibulum id ligula porta felis euismod semper.
+               Kami menghadirkan pengalaman kuliner yang menggabungkan cita rasa autentik dengan sentuhan modern. Setiap hidangan disiapkan dengan bahan pilihan dan perhatian penuh terhadap detail, untuk memastikan kualitas terbaik di setiap sajian.
               </p>
               <p>
-                Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-                venenatis vestibulum. Curabitur blandit tempus porttitor.
+                Dengan suasana yang nyaman dan pelayanan yang ramah, kami berkomitmen memberikan pengalaman bersantap yang berkesan. Baik untuk makan santai bersama keluarga maupun pertemuan spesial, tempat kami menjadi pilihan yang tepat.
               </p>
 
               <div className="row mt-4">
@@ -42,8 +38,8 @@ export default function About() {
                     data-aos-delay="150"
                   >
                     <i className="bi bi-award"></i>
-                    <h4>Exceptional Service</h4>
-                    <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.</p>
+                    <h4>Layanan Luar Biasa</h4>
+                    <p>Kami mengutamakan kepuasan pelanggan melalui pelayanan yang cepat, ramah, dan profesional di setiap kunjungan.</p>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -53,8 +49,8 @@ export default function About() {
                     data-aos-delay="200"
                   >
                     <i className="bi bi-trophy"></i>
-                    <h4>Industry Recognition</h4>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                    <h4>Pengakuan Industri</h4>
+                    <p>Kualitas rasa dan pelayanan kami telah mendapatkan apresiasi dari pelanggan dan terus berkembang mengikuti standar industri kuliner.</p>
                   </div>
                 </div>
               </div>
@@ -64,7 +60,7 @@ export default function About() {
                 data-aos="fade-up"
                 data-aos-delay="250"
               >
-                <p className="chef-name">Jane Smith, Head of Operations</p>
+                <p className="chef-name">Jane Smith, Kepala Operasional</p>
                 <img
                   src="/assets/img/misc/signature-1.webp"
                   alt="Chef Signature"
@@ -95,7 +91,7 @@ export default function About() {
                 <div className="col-12 mt-3 position-relative">
                   <div className="years-badge">
                     <span className="number">18</span>
-                    <span className="text">Years of Dedication</span>
+                    <span className="text">Tahun Berdiri</span>
                   </div>
                   <img
                     src="/assets/img/restaurant/showcase-6.webp"

@@ -8,7 +8,7 @@ const Location = () => {
           <div className="col-lg-6" data-aos="fade-right" data-aos-delay="200">
             <div className="map-container">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.684949335945!2d-73.98658242357565!3d40.75853057126168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ1JzMwLjciTiA3M8KwNTknMDcuNyJX!5e0!3m2!1sen!2sus!4v1654321234567!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8534.788935462248!2d104.4353882467118!3d0.9292649407980332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d9736172a35a1d%3A0xecf786d383f6cb31!2sWaroeng%20Searah!5e0!3m2!1sid!2sid!4v1774708772106!5m2!1sid!2sid"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -23,8 +23,8 @@ const Location = () => {
           <div className="col-lg-6" data-aos="fade-left" data-aos-delay="200">
             <div className="info-container">
               <div className="section-header">
-                <h2>Find Us</h2>
-                <p>Visit Us Today</p>
+                <h2>Temukan Kami</h2>
+                <p>Kunjungi Kami Hari Ini!</p>
               </div>
 
               {/* Info Cards */}
@@ -33,8 +33,8 @@ const Location = () => {
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="info-content">
-                  <h3>Our Location</h3>
-                  <p>123 Culinary Avenue, Manhattan, NY 10001</p>
+                  <h3>Lokasi Kami</h3>
+                  <p>WCHQ+8H5, Jl. Hang Tuah, Tanjungpinang Kota, Kec. Tj. Pinang Kota, Kota Tanjung Pinang, Kepulauan Riau</p>
                 </div>
               </div>
 
@@ -43,10 +43,10 @@ const Location = () => {
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="info-content">
-                  <h3>Reservations</h3>
+                  <h3>Kontak</h3>
                   <p>+1 (212) 555-7890</p>
                   <p className="small-text">
-                    We recommend making reservations at least 48 hours in advance
+                    Respon Lambat Ketika Sibuk.
                   </p>
                 </div>
               </div>
@@ -56,29 +56,29 @@ const Location = () => {
                   <i className="bi bi-clock"></i>
                 </div>
                 <div className="info-content">
-                  <h3>Hours</h3>
+                  <h3>Jam Buka</h3>
                   <div className="hours-grid">
-                    <div className="day">Monday - Thursday</div>
-                    <div className="time">11:00 AM - 10:00 PM</div>
-
-                    <div className="day">Friday - Saturday</div>
-                    <div className="time">11:00 AM - 11:30 PM</div>
-
-                    <div className="day">Sunday</div>
-                    <div className="time">10:00 AM - 9:00 PM</div>
-
-                    <div className="day">Brunch Hours</div>
-                    <div className="time">Sat &amp; Sun, 10:00 AM - 2:00 PM</div>
+                    <div className="day">Setiap Hari</div>
+                    <div className="time">11:00 AM - 02:00 PM</div>
                   </div>
                 </div>
+
+                <div className="additional-info" data-aos="fade-up" data-aos-delay="600">
+                      <div className="info-highlight">
+                        <i className="bi bi-star-fill"></i>
+                        <span>
+                          Recommended to book 2-3 days in advance for weekend dining
+                        </span>
+                      </div>
+                    </div>
               </div>
 
               <div className="cta-wrapper" data-aos="fade-up" data-aos-delay="600">
-                <a href="#" className="btn-book">
+                <a href="https://www.instagram.com/waroeng.searah/" className="btn-book">
                   Make a Reservation
                 </a>
-                <a href="#" className="btn-contact">
-                  Contact Us
+                <a href="https://www.instagram.com/waroeng.searah/" className="btn-contact">
+                  Hubungi Kami
                 </a>
               </div>
             </div>

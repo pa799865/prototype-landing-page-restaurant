@@ -38,16 +38,16 @@ export default function Menu() {
       <div className="container section-title" data-aos="fade-up">
         <span className="description-title">Menu</span>
         <h2>Menu</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Nikmati beragam hidangan istimewa yang diracik dengan cita rasa khas dan sentuhan terbaik dari dapur kami.</p>
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
         <div className="menu-filters isotope-filters mb-5" data-aos="fade-up" data-aos-delay="200">
           <ul>
-            <li data-filter="*" className="filter-active">All Dishes</li>
-            <li data-filter=".filter-starters">Appetizers</li>
-            <li data-filter=".filter-main">Entrees</li>
-            <li data-filter=".filter-dessert">Sweet Treats</li>
+            <li data-filter="*" className="filter-active">Semua Hidangan</li>
+            <li data-filter=".filter-starters">Makanan</li>
+            <li data-filter=".filter-main">Minuman</li>
+            <li data-filter=".filter-dessert">Snack</li>
             <li data-filter=".filter-drinks">Beverages</li>
           </ul>
         </div>
@@ -58,7 +58,7 @@ export default function Menu() {
             <div className="menu-card">
               <div className="menu-card-image">
                 <img src="assets/img/restaurant/starter-1.webp" alt="Appetizer" className="img-fluid" />
-                <div className="price-overlay">$12.50</div>
+                <div className="price-overlay">Rp. 12.500</div>
               </div>
               <div className="menu-card-content">
                 <h4>Prosciutto-Wrapped Asparagus</h4>
@@ -70,7 +70,7 @@ export default function Menu() {
             <div className="menu-card">
               <div className="menu-card-image">
                 <img src="assets/img/restaurant/starter-3.webp" alt="Appetizer" className="img-fluid" />
-                <div className="price-overlay">$14.95</div>
+                <div className="price-overlay">Rp. 14.000</div>
               </div>
               <div className="menu-card-content">
                 <h4>Seared Scallops with Cauliflower</h4>
@@ -83,7 +83,7 @@ export default function Menu() {
             <div className="menu-card featured">
               <div className="menu-card-image">
                 <img src="assets/img/restaurant/main-2.webp" alt="Main Course" className="img-fluid" />
-                <div className="price-overlay">$28.00</div>
+                <div className="price-overlay">Rp. 28.000</div>
               </div>
               <div className="menu-card-content">
                 <h4>Herb-Crusted Rack of Lamb</h4>
@@ -95,7 +95,7 @@ export default function Menu() {
             <div className="menu-card">
               <div className="menu-card-image">
                 <img src="assets/img/restaurant/main-6.webp" alt="Main Course" className="img-fluid" />
-                <div className="price-overlay">$22.75</div>
+                <div className="price-overlay">Rp. 22.700</div>
               </div>
               <div className="menu-card-content">
                 <h4>Quinoa Stuffed Bell Peppers</h4>
@@ -108,7 +108,7 @@ export default function Menu() {
             <div className="menu-card">
               <div className="menu-card-image">
                 <img src="assets/img/restaurant/dessert-4.webp" alt="Dessert" className="img-fluid" />
-                <div className="price-overlay">$11.25</div>
+                <div className="price-overlay">Rp. 11.000</div>
               </div>
               <div className="menu-card-content">
                 <h4>Salted Caramel Cheesecake</h4>
@@ -121,7 +121,7 @@ export default function Menu() {
             <div className="menu-card">
               <div className="menu-card-image">
                 <img src="assets/img/restaurant/drink-2.webp" alt="Beverage" className="img-fluid" />
-                <div className="price-overlay">$15.00</div>
+                <div className="price-overlay">Rp. 15.000</div>
               </div>
               <div className="menu-card-content">
                 <h4>Elderflower Gin Fizz</h4>
