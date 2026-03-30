@@ -12,8 +12,7 @@ export default function About() {
       <div className="container section-title" data-aos="fade-up">
         <span className="description-title">&nbsp;Tentang Kami</span>
         <h2>Tentang Kami</h2>
-        <p>
-          Perpaduan rasa, suasana, dan pelayanan untuk menciptakan pengalaman bersantap yang berkesan.
+        <p >Berawal dari kecintaan terhadap warisan kuliner lokal, Waroeng Searah hadir sebagai perpaduan harmonis antara resep tradisional yang otentik dan inovasi modern. Kami percaya bahwa setiap hidangan adalah sebuah cerita, disajikan dalam suasana yang hangat dan pelayanan tulus untuk menciptakan momen bersantap yang tak terlupakan di setiap kunjungan Anda.
         </p>
       </div>
 
@@ -23,10 +22,10 @@ export default function About() {
           <div className="col-lg-6" data-aos="fade-up">
             <div className="about-content">
               <h2>Rasakan Pendekatan Unik Kami</h2>
-              <p className="fst-italic">
+              <p className="fst-italic" style={{textAlign: 'justify'}}>
                Kami menghadirkan pengalaman kuliner yang menggabungkan cita rasa autentik dengan sentuhan modern. Setiap hidangan disiapkan dengan bahan pilihan dan perhatian penuh terhadap detail, untuk memastikan kualitas terbaik di setiap sajian.
               </p>
-              <p>
+              <p style={{textAlign: 'justify'}}>
                 Dengan suasana yang nyaman dan pelayanan yang ramah, kami berkomitmen memberikan pengalaman bersantap yang berkesan. Baik untuk makan santai bersama keluarga maupun pertemuan spesial, tempat kami menjadi pilihan yang tepat.
               </p>
 
@@ -39,7 +38,7 @@ export default function About() {
                   >
                     <i className="bi bi-award"></i>
                     <h4>Layanan Luar Biasa</h4>
-                    <p>Kami mengutamakan kepuasan pelanggan melalui pelayanan yang cepat, ramah, dan profesional di setiap kunjungan.</p>
+                    <p >Kami mengutamakan kepuasan pelanggan melalui pelayanan yang cepat, ramah, dan profesional di setiap kunjungan.</p>
                   </div>
                 </div>
                 <div className="col-md-6">
