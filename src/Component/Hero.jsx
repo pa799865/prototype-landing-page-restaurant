@@ -165,7 +165,7 @@ const Hero = () => {
         }
       `}</style>
 
-      <section className="hero">
+      <section className="hero" id="hero">
         <div className="hero-background">
           <video autoPlay muted loop playsInline>
             <source src="/assets/img/restaurant/video-4.mp4" type="video/mp4" />
